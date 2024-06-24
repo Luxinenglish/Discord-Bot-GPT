@@ -32,7 +32,7 @@ docker-compose.yml:
 version: '3.9'
     services:
         ibot-gpt:
-            image: 'slendymilky/ibot-gpt:latest'
+            image: 'luxinenglish/ibot-gpt:latest'
             container_name: ibot-gpt
             restart: always
             environment:
